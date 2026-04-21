@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "BatteryCharger"
+    ]
   },
   "meta": {
     "filename": "projekt_Roland.kicad_pro",
@@ -528,7 +530,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacture/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -639,7 +641,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "empty.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -653,11 +655,15 @@
   "sheets": [
     [
       "3f61935e-2f8d-4290-af05-2d87358676e0",
-      ""
+      "USB-C"
     ],
     [
       "35aa7efb-91fd-4339-bda5-806a0c02b1bf",
-      ""
+      "BatteryCircuit"
+    ],
+    [
+      "233fb837-56b0-4e7b-900d-cd145004eaa8",
+      "DC-DC Converter"
     ],
     [
       "12081149-6dd0-47bb-bb21-fd1de250060f",

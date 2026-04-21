@@ -5,9 +5,71 @@
 	(uuid "12081149-6dd0-47bb-bb21-fd1de250060f")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 102.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101088bf-5962-457b-9c92-79cc7d95e750")
+	)
 	(sheet
-		(at 76.2 25.4)
-		(size 12.7 3.81)
+		(at 102.87 55.88)
+		(size 50.8 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "233fb837-56b0-4e7b-900d-cd145004eaa8")
+		(property "Sheetname" "DC-DC Converter"
+			(at 102.87 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 102.87 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT+" input
+			(at 102.87 71.12 180)
+			(uuid "e54128bc-c10c-482c-adc5-73566fdcf892")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "projekt_Roland"
+				(path "/12081149-6dd0-47bb-bb21-fd1de250060f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 54.61)
+		(size 20.32 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +83,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "35aa7efb-91fd-4339-bda5-806a0c02b1bf")
-		(property "Sheetname" ""
-			(at 76.2 24.6884 0)
+		(property "Sheetname" "BatteryCircuit"
+			(at 71.12 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,13 +92,23 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "powersection.kicad_sch"
-			(at 76.2 29.7946 0)
+		(property "Sheetfile" "battery_circuit.kicad_sch"
+			(at 71.12 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BAT_OUTPUT" output
+			(at 91.44 71.12 0)
+			(uuid "841806fc-455b-4c02-a012-a87e3d727eb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +120,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 12.7 3.81)
+		(at 71.12 83.82)
+		(size 17.78 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -63,8 +135,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3f61935e-2f8d-4290-af05-2d87358676e0")
-		(property "Sheetname" ""
-			(at 25.4 24.6884 0)
+		(property "Sheetname" "USB-C"
+			(at 71.12 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +144,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power section.kicad_sch"
-			(at 25.4 29.7946 0)
+		(property "Sheetfile" "usbc.kicad_sch"
+			(at 71.12 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
