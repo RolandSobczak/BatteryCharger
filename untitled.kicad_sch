@@ -1183,7 +1183,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Passive:L_27nH_LQW_RF"
+		(symbol "Passive:L_15u_6.3A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1195,32 +1195,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at -1.27 5.08 90)
+				(at -1.27 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "L_27nH_LQW_RF"
-				(at 2.54 0 90)
+			(property "Value" "L_15u_6.3A"
+				(at 3.048 -0.508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RolandsFootprint:L_0603_LQW_HandSolder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Footprint" "RolandsFootprint:VLS_EX"
+				(at 0.254 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1228,8 +1219,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
-				(at -10.16 7.62 0)
+			(property "Datasheet" "https://www.tme.eu/Document/ecce97208c50439c54e2bcbafa2a79c4/vls6045ex-h_en.pdf"
+				(at 32.512 -18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1237,7 +1228,52 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "Description" "Inductor 15uH 6.3A 40 mOhm SMD"
+				(at 5.588 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MOC" "     104CDMCCDS-150MC"
+				(at -2.794 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "JLCPCB, Mouser, DigiKey"
+				(at -1.27 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "11.5×10.3×4.0"
+				(at -6.096 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "    104CDMCCDS-150MC"
+				(at -0.762 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "!inductor !choke"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1255,7 +1291,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_27nH_LQW_RF_0_1"
+			(symbol "L_15u_6.3A_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6323 1.905)
@@ -1305,23 +1341,7 @@
 					)
 				)
 			)
-			(symbol "L_27nH_LQW_RF_1_1"
-				(text "0603"
-					(at -0.508 2.54 900)
-					(effects
-						(font
-							(size 0.3175 0.3175)
-						)
-					)
-				)
-				(text "RF\n"
-					(at -0.508 -2.794 900)
-					(effects
-						(font
-							(size 0.3175 0.3175)
-						)
-					)
-				)
+			(symbol "L_15u_6.3A_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2459,7 +2479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f7402a0-d9dd-4ccd-ba77-4ba80e08108c")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 38.1 68.326 0)
 			(effects
 				(font
@@ -2558,7 +2578,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11d228b0-6d51-4452-8fe7-3222c171d3a8")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 196.85 81.8401 0)
 			(effects
 				(font
@@ -2655,7 +2675,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2670,7 +2690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2021aadb-e25f-4855-a62b-a6887f67c0bd")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 93.98 79.756 0)
 			(effects
 				(font
@@ -2769,7 +2789,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2785,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279bcdb7-f92b-4331-a506-54e0ca3bc3f4")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 67.31 66.3574 90)
 			(effects
 				(font
@@ -2857,7 +2877,7 @@
 		(instances
 			(project ""
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2872,7 +2892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3089e64b-09d0-4481-9253-3558685260f6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 193.04 128.27 0)
 			(effects
 				(font
@@ -2922,7 +2942,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38752de4-285f-43f7-8318-f41a39ce78b5")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 95.25 103.4301 0)
 			(effects
 				(font
@@ -3019,7 +3039,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41fa8a61-a55c-4724-b61a-aa3c8fc0b58d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 210.82 76.2 0)
 			(effects
 				(font
@@ -3085,7 +3105,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe4c852-b0bd-4634-a3bb-3544ed0ddec0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 35.56 82.55 0)
 			(effects
 				(font
@@ -3309,7 +3329,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6de1d4a1-354b-469f-b491-be7b49964be0")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 173.99 128.27 0)
 			(effects
 				(font
@@ -3374,14 +3394,14 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Passive:L_27nH_LQW_RF")
+		(lib_id "Passive:L_15u_6.3A")
 		(at 133.35 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3389,34 +3409,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e7567de-314b-4920-aca9-aa4ac5048f1a")
-		(property "Reference" "L2"
-			(at 133.3219 44.45 90)
+		(uuid "7684e46c-5541-4826-b800-cc625558e832")
+		(property "Reference" "L1"
+			(at 133.35 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 133.3219 46.99 90)
+		(property "Value" "L_15u_6.3A"
+			(at 133.35 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RolandsFootprint:L_0603_LQW_HandSolder"
-			(at 133.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 49.53 0)
+		(property "Footprint" "BatteryCharger:VLS_EX"
+			(at 120.65 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,8 +3435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 125.73 59.69 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf"
+			(at 151.638 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,16 +3444,61 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "8320c7ea-1e1d-4198-b787-6f1998daaa73")
+		(property "Description" "Inductor 15uH 6.3A 40 mOhm SMD"
+			(at 149.606 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOC" "VLS5045EX-2R2N"
+			(at 147.574 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 145.034 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "11.5×10.3×4.0"
+			(at 153.924 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "VLS5045EX-2R2N"
+			(at 133.35 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "8c8adb10-d4c8-494d-bd1a-0042519d48b9")
+			(uuid "102b2aa4-7a3c-4fd7-a1a7-0836f12851f6")
+		)
+		(pin "2"
+			(uuid "83863d14-0b48-4c10-8522-63c8e3973159")
 		)
 		(instances
-			(project "projekt_Roland"
+			(project ""
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b861c32-7a77-4c9a-b9bb-57372d2d1d39")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 91.44 128.27 0)
 			(effects
 				(font
@@ -3507,7 +3563,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3523,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3656a06-0c49-403e-ac9a-1c4f145f1ebc")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 177.8 80.5701 0)
 			(effects
 				(font
@@ -3604,7 +3660,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3619,7 +3675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a37db1ec-c9ea-4733-b1fd-a0ee7ebfa2ec")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR031"
 			(at 142.24 128.27 0)
 			(effects
 				(font
@@ -3669,7 +3725,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR018")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3685,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a84382b3-4f2c-42df-aad8-38857cb4c1b7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR028"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -3735,7 +3791,7 @@
 		(instances
 			(project ""
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR04")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3751,7 +3807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7dafa61-4fab-4d24-a8f0-75e7de4826d3")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 78.74 95.8101 0)
 			(effects
 				(font
@@ -3832,7 +3888,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3847,7 +3903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e84974fa-3055-4832-982f-ec2dbcc31f57")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 74.93 128.27 0)
 			(effects
 				(font
@@ -3897,7 +3953,7 @@
 		(instances
 			(project "projekt_Roland"
 				(path "/12081149-6dd0-47bb-bb21-fd1de250060f/233fb837-56b0-4e7b-900d-cd145004eaa8"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

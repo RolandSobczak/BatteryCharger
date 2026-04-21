@@ -1,0 +1,175 @@
+(footprint "VLS_EX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.4 -3.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e17139c-beaf-47d5-ae70-0d46509bd91d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VLS_EX"
+		(at 0 -1.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1c493c5-e474-4929-b958-1896f0a9bcd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18a9482e-5a09-4af8-abf4-5f78fabbc73b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97fdd83a-c4be-4563-bbc6-674f2ad7eb1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -3.025)
+		(end -3 -3.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d555c347-65da-4428-8449-8c50d2083b74")
+	)
+	(fp_line
+		(start -3.45 2.975)
+		(end -3.45 -3.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a97b21a5-9708-4c86-9378-8f757de56f36")
+	)
+	(fp_line
+		(start -3.325 2.975)
+		(end -3.45 2.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "506aa664-989d-4a86-a4bc-700a9b07e076")
+	)
+	(fp_line
+		(start -3 -3.025)
+		(end 3 -3.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "372d98f3-94af-4f47-8e2c-e4934caba52b")
+	)
+	(fp_line
+		(start -3 2.975)
+		(end -3.325 2.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63bbb2e4-7026-4d32-a67e-9e3b51149075")
+	)
+	(fp_line
+		(start -3 2.975)
+		(end 3 2.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17766e09-743c-4e08-b7e6-3a41ee30a016")
+	)
+	(fp_rect
+		(start -3.15 -3.15)
+		(end 3.15 3.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "19ca3d68-953c-49f5-ac31-4ae67499f981")
+	)
+	(fp_rect
+		(start -3 -3.025)
+		(end 3 2.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ba9a75e7-1c9d-4eaa-9393-53355e59de61")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.225 1.325 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a63b885-29b2-4476-9567-4143c60d16b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 2.1 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "018f2d6a-5bbd-4f1d-ad5e-0697848204ae")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 2.1 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb830b8f-9b82-4105-9834-e757639915c5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad/3Dmodels/VLS6045EX-100M-CA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
